@@ -7,5 +7,6 @@ target 'GetYes' do
 
   # Pods for GetYes
 pod ‘FLAnimatedImage’
+pod 'Alamofire', '~> 5.4'
 
 end

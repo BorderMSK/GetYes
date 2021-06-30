@@ -55,11 +55,11 @@
                             <constraint firstItem="lYg-Da-jHt" firstAttribute="centerX" secondItem="Lh2-Xa-yGY" secondAttribute="centerX" id="dfl-u0-wXb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jdy-r4-JV6" secondAttribute="bottom" constant="72" id="ekf-Uk-hLA"/>
                         </constraints>
-                        <connections>
-                            <outlet property="answerLabel" destination="lYg-Da-jHt" id="8sb-Mn-RUL"/>
-                            <outlet property="imageView" destination="Lh2-Xa-yGY" id="tXT-lb-c2P"/>
-                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="lYg-Da-jHt" id="iXG-Di-maV"/>
+                        <outlet property="imageView" destination="Lh2-Xa-yGY" id="G7x-Ld-kD0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
