@@ -1,0 +1,6 @@
+framework module Pods_GetYes {
+  umbrella header "Pods-GetYes-umbrella.h"
+
+  export *
+  module * { export * }
+}
