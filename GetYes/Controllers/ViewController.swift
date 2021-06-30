@@ -24,20 +24,19 @@ class ViewController: UIViewController {
     func getImage() {
         
         guard let url = URL(string: "https://yesno.wtf/api") else { return }
-
+        
         AF.request(url).validate().responseDecodable(of: Model.self) { response in
             switch response.result {
             case .success(let data):
                 DispatchQueue.global().async {
                     guard let url = URL(string: data.image!) else { return }
                     guard let imageData = try? Data(contentsOf: url) else { return }
-                DispatchQueue.main.async {
-                    self.imageView.animatedImage = FLAnimatedImage(animatedGIFData: imageData)
-                    self.answerLabel.text = data.answer
-                    self.answerLabel.isHidden = false
+                    DispatchQueue.main.async {
+                        self.imageView.animatedImage = FLAnimatedImage(animatedGIFData: imageData)
+                        self.answerLabel.text = data.answer
+                        self.answerLabel.isHidden = false
+                    }
                 }
-                }
-                
             case .failure(let error):
                 print(error)
             }
