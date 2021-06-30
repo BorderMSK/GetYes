@@ -14,6 +14,7 @@
 		BC85A313268AEBDD00A032B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC85A312268AEBDD00A032B4 /* Assets.xcassets */; };
 		BC85A316268AEBDD00A032B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC85A314268AEBDD00A032B4 /* LaunchScreen.storyboard */; };
 		BC85A31E268AEC9300A032B4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC85A31D268AEC9300A032B4 /* Model.swift */; };
+		BC85A325268C9ABA00A032B4 /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC85A324268C9ABA00A032B4 /* NetWork.swift */; };
 		CAAEBFAD49B3EADE548F60ED /* Pods_GetYes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E68828343B420D92E1A49E /* Pods_GetYes.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		BC85A315268AEBDD00A032B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC85A317268AEBDD00A032B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC85A31D268AEC9300A032B4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BC85A324268C9ABA00A032B4 /* NetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWork.swift; sourceTree = "<group>"; };
 		FEF2C66A834E939526F2F56D /* Pods-GetYes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetYes.debug.xcconfig"; path = "Target Support Files/Pods-GetYes/Pods-GetYes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				BC85A31D268AEC9300A032B4 /* Model.swift */,
+				BC85A324268C9ABA00A032B4 /* NetWork.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				BC85A30A268AEBD900A032B4 /* AppDelegate.swift in Sources */,
 				BC85A30C268AEBD900A032B4 /* SceneDelegate.swift in Sources */,
 				BC85A31E268AEC9300A032B4 /* Model.swift in Sources */,
+				BC85A325268C9ABA00A032B4 /* NetWork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
